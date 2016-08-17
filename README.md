@@ -1,12 +1,12 @@
 # _Pig Latin Translator_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _This webpage allows you to translate english to pig latin._
 
 #### By _**Martin Cartledge and Chance Neff**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Input single or multiple words and hit 'submit' to translate into Pig Latin!_
 
 ## Setup/Installation Requirements
 
@@ -22,6 +22,8 @@ _None yet_
 ## Support and contact details
 
 _Martin Cartledge: martincartledge@icloud.com_
+
+_Chance Neff: _
 
 ## Technologies Used
 
