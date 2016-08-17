@@ -36,56 +36,61 @@ JS_
 * _Output: 1_
 
 2. program recognizes a single vowel, regardless of case
-* _Input: a_
+* _Input: A_
 * _Output: 1_
 
-3. program recogonizes a single vowel in a multiple-character word
-* _Input: a_
+3. program recognizes a single vowel in a multiple-character word
+* _Input: cat_
 * _Output: 1_
 
 4. program recognizes a vowel in a multiple word sentence
-* _Input: a_
-* _Output: 1_
+* _Input: The cat is here_
+* _Output: 5_
 
 5. program recognizes a vowels in a multiple-word sentence, regardless of capitalization
-* _Input: a_
-* _Output: 1_
+* _Input: THE CAT IS HERE_
+* _Output: 5_
 
 6. program recognizes all vowels in a multiple-word sentence, regardless of inconsistent capitalization
-* _Input: a_
-* _Output: 1_
+* _Input: CaTS CATEReD ThE EveNT_
+* _Output: 6_
 
 7. program recognizes index of vowel
-* _Input: a_
+* _Input: cat_
 * _Output: 1_
 
 8. program adds "ay" to end of word that begins with vowel (index 0)
-* _Input: a_
-* _Output: 1_
+* _Input: apple_
+* _Output: appleay_
 
 9. program moves non-vowel characters to end of word when word begins with one or more non-vowels
-* _Input: a_
-* _Output: 1_
+* _Input: cat_
+* _Output: atc_
 
 10. program adds "ay" to the end of word that begins with one or more non-vowels
-* _Input: a_
-* _Output: 1_
+* _Input: cat_
+* _Output: catay_
 
 11. program moves non-vowel characters to end of word when word begins with one or more non-vowels and appends "ay"
-* _Input: a_
-* _Output: 1_
+* _Input: cat_
+* _Output: atcay_
 
 12. program recognizes "qu"
-* _Input: a_
+* _Input: quiet_
 * _Output: 1_
 
 13. program recognizes "qu" regardless of capitalization
-* _Input: a_
+* _Input: Quiet_
 * _Output: 1_
 
 14. program moves non-vowel characters to end of word along with "qu" if "qu" follows beginning non-vowel
-* _Input: a_
-* _Output: 1_
+* _Input: squeal_
+* _Output: ealsqu_
+
+15. program does nothing to non-alphabetical characters, since they do not contain consonants or vowels.
+* _Input: 7_
+* _Output: 7_
+
 
 ### License
 
